@@ -1,14 +1,18 @@
-/* style.css */
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: fixed;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('imagens/clock.jpg');
+  background-size: cover; /* Isso dimensiona a imagem para cobrir todo o corpo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+  color: rgb(252, 243, 243); /* Cor do texto para melhor visibilidade na imagem de fundo */
+}
 
   .cronometro {
     font-size: 24px;
     margin: 50px auto;
-    background-color: rgb(187, 211, 214);
+    background-color: rgb(67, 102, 107);
   }
   
   button {
@@ -19,4 +23,10 @@ body {
     border-radius: 50%;
     background-color: rgb(171, 171, 238);
   }
+  footer{
+    font-size: 12px;
+    margin: 50px auto;
+    background-color: rgb(74, 118, 124);
+  }
+  
   

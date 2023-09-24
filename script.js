@@ -1,4 +1,4 @@
-// script.js
+
 let tempo = 0; // Tempo em segundos
 let intervalo; // Referência para o intervalo
 
