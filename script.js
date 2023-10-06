@@ -38,4 +38,5 @@ function atualizarTempo() {
   tempoElement.textContent = tempo;
 }
 
-zerarCronometro(); // Inicializa o cronômetro com tempo 0
+// Não chama zerarCronometro() aqui para que o cronômetro inicie com tempo 0
+
